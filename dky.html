@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tài khoản | IVY moda</title>
+    <link rel="stylesheet" href="dky.css">
+    <link rel="icon" href="https://pubcdn.ivymoda.com/ivy2/images/logo-icon.ico" type="image/png" sizes="16x16">
+</head>
+<body>
+    
+    <section>
+        <div>
+            <p style="text-align: center; font-size: 25px; "> <b>ĐĂNG KÝ</b> </p>
+        </div>
+        <form action="">
+            
+            <div class="ttkh">
+
+                <!-- Thông tin cá nhân -->
+                 <p class="tt">Thông tin cá nhân</p>
+                <div class="form-group">
+                    <label for="name">Họ tên:</label>
+                    <input type="text" id="name" name="name" placeholder="Họ và tên..." required>
+                    <div class="help-text"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email..." required>
+                    <div class="help-text"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="sdt">Số điện thoại:</label>
+                    <input type="tel" id="sdt" name="sdt" placeholder="Số điện thoại..." required>
+                    <div class="help-text"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="ngaysinh">Ngày sinh:</label>
+                    <input type="date" id="ngaysinh" name="ngaysinh" required>
+                    <div class="help-text"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Giới tính:</label>
+                    <select name="gender" id="gender">
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                    </select>
+                    <div class="help-text"></div>
+                </div>
+                <div class="form-group">
+                    <label for="address">Địa chỉ:</label>
+                    <textarea id="address" name="address" placeholder="Nhập địa chỉ của bạn..." required></textarea>
+                </div>
+            </div>
+
+            <div class="ttmk">
+                <!-- Thông tin tài khoản -->
+                <p class="tt">Thông tin Đăng nhập</p>
+
+                <div class="form-group">
+                    <label for="username">Tên đăng nhập:</label>
+                    <input type="text" id="username" name="username" placeholder="Tên đăng nhập..." required>
+                    <div class="help-text"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" id="password" name="password" placeholder="Mật khẩu..." required>
+                    <div class="help-text"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="repass">Nhập lại mật khẩu:</label>
+                    <input type="password" id="repass" name="repass" placeholder="Nhập lại mật khẩu..." required>
+                    <div class="help-text"></div>
+                </div>
+
+                <button type="submit">Đăng ký</button>
+                <p style="text-align: center;">Bạn đã có tài khoản?
+                    <a class="dangnhap" href="dangnhap.html">Đăng nhập</a>
+
+                </p>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>
